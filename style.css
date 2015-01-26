@@ -1,0 +1,95 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+.slide .bot {
+  display: block;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+  margin-bottom: 40px;
+}
+.slide h1 {
+  font-family: 'Gotham Book';
+  text-transform: uppercase;
+  color: white;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+.slide p {
+  font-family: 'Gotham';
+  color: #2176c8;
+  font-size: 28px;
+  line-height: 50px;
+}
+
+/* Specific Style */
+.twitter h1 {
+  text-transform: none;
+  margin: 50px auto 20px;
+}
+.twitter .title {
+  height: 70px;
+  width: 600px;
+  background-image: url(img/further.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.twitter .logo {
+  height: 90px;
+  width: 111px;
+  background-image: url(img/twitter.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+.keecker .bot {
+  height: 114px;
+  width: 100px;
+  background-image: url(img/keecker_states.png);
+}
+.art .bot {
+  height: 114px;
+  width: 114px;
+  background-image: url(img/art_states.png);
+}
+.blackbox {
+  margin-top: -20px;
+}
+.blackbox .bot{
+  height: 890px;
+  width: 462px;
+  background-image: url(img/lamp_states.png);
+}
+.mirror .bot {
+  height: 165px;
+  width: 91px;
+  background-image: url(img/mirror_states.png);
+}
+.fat-boy .bot {
+  height: 99px;
+  width: 108px;
+  background-image: url(img/fatboy_states.png);
+}
+.babyfoot .bot {
+  height: 275px;
+  width: 405px;
+  background-image: url(img/babyfoot_states.png);
+}
+.chesterfield .bot {
+  height: 194px;
+  width: 385px;
+  background-image: url(img/chesterfield_states.png);
+}
